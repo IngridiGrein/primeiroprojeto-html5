@@ -1,0 +1,28 @@
+{
+	"name": "Site Aula 08",
+	"description":"Exercício",
+	"authors": [
+		{
+			"name": "Grein Ingridi",
+			"role": "Praticando"
+		}
+	],
+	"require-dev": {
+		"twbs/bootstrap":"4.0.0"
+		
+
+	},
+	"repositories": [
+		{
+			"type":"package",
+			"package": {
+				"name":"",
+				"version":"",
+				"dist": {
+					"url": "",
+					"type": "file"
+				}
+			}
+		}
+	]
+}	
