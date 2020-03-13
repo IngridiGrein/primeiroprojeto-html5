@@ -8,7 +8,9 @@
 		}
 	],
 	"require-dev": {
-		"twbs/bootstrap":"4.0.0"
+		"bootstrap/bootstrapJS":"*",
+		"bootstrap/bootstrapCSS":"*",
+		"jquery/jquery":"*"
 		
 
 	},
@@ -16,10 +18,32 @@
 		{
 			"type":"package",
 			"package": {
-				"name":"",
-				"version":"",
+				"name":"bootstrap/bootstrapJS",
+				"version":"4.0.0",
 				"dist": {
-					"url": "",
+					"url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
+					"type": "file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrapCSS",
+				"version":"4.0.0",
+				"dist": {
+					"url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+					"type": "file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"jquery/jquery",
+				"version":"1.11.1",
+				"dist": {
+					"url": "https://code.jquery.com/jquery-1.11.1.min.js",
 					"type": "file"
 				}
 			}
