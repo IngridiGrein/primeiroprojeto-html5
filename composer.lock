@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce94c77bad4a1a27c4c67cfdf5ccde72",
-    "content-hash": "592b0011d64aa2a11bd22b5002e5e409",
+    "hash": "7ba4e60c8ec8934a54f9c005d0e5a55b",
+    "content-hash": "e195274af0b39fe630b44a0c7f806765",
     "packages": [],
     "packages-dev": [
         {
@@ -36,6 +36,17 @@
             "dist": {
                 "type": "file",
                 "url": "https://code.jquery.com/jquery-1.11.1.min.js",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "jquery/jquery3",
+            "version": "3.2.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js",
                 "reference": null,
                 "shasum": null
             },

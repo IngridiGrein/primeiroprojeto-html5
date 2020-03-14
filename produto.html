@@ -1,91 +1,183 @@
 <html>
 	<head>
-		meta charset="UTF-8">
-		<title>Aula 08</title>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<meta charset="UTF-8">
+		<title>Produtos</title>
+		<link href="vendor/bootstrap/bootstrapCSS/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 		<link rel="stylesheet" type="text/css" href="assets/css/produto.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>	
-<div class="container">
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">AULA 08</a>
+            <img src="assets/img/logo.png" width="80px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="produto.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+		<div class="container">
 
-<br>  <p class="text-center">More bootstrap 4 components on <a href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com</a></p>
-<hr>
-
-<!--https://bootsnipp.com/snippets/R5r9A 
-
-
-<div class="row">
-<div class="col-md-4">
-	<figure class="card card-product">
-		<div class="img-wrap"><img src="https://s9.postimg.org/tupxkvfj3/image.jpg"></div>
-		<figcaption class="info-wrap">
-				<h4 class="title">Another name of item</h4>
-				<p class="desc">Some small description goes here</p>
-				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
-				</div> <!-- rating-wrap.// -->
-		</figcaption>
-		<div class="bottom-wrap">
-			<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
-			<div class="price-wrap h5">
-				<span class="price-new">$1280</span> <del class="price-old">$1980</del>
-			</div> <!-- price-wrap.// -->
-		</div> <!-- bottom-wrap.// -->
-	</figure>
-</div> <!-- col // -->
-<div class="col-md-4">
-	<figure class="card card-product">
-		<div class="img-wrap"><img src="https://s9.postimg.org/ojb106167/image.jpg"> </div>
-		<figcaption class="info-wrap">
-				<h4 class="title">Good product</h4>
-				<p class="desc">Some small description goes here</p>
-				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
-				</div> <!-- rating-wrap.// -->
-		</figcaption>
-		<div class="bottom-wrap">
-				<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
-				<div class="price-wrap h5">
-					<span class="price-new">$1280</span> <del class="price-old">$1980</del>
-				</div> <!-- price-wrap.// -->
-		</div> <!-- bottom-wrap.// -->
-	</figure>
-</div> <!-- col // -->
-<div class="col-md-4">
-	<figure class="card card-product">
-		<div class="img-wrap"><img src="https://s9.postimg.org/4ooze1tof/image.jpg"></div>
-		<figcaption class="info-wrap">
-				<h4 class="title">Product name goes here</h4>
-				<p class="desc">Some small description goes here</p>
-				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
-				</div> <!-- rating-wrap.// -->
-		</figcaption>
-		<div class="bottom-wrap">
-				<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
-				<div class="price-wrap h5">
-					<span class="price-new">$1280</span> <del class="price-old">$1980</del>
-				</div> <!-- price-wrap.// -->
-		</div> <!-- bottom-wrap.// -->
-	</figure>
-</div> <!-- col // -->
-</div> <!-- row.// -->
+		<br>  <p class="text-center">Produtos originais de última geração</p>
+		<hr>
+		<div class="row">
+		<div class="col-md-4">
+			<figure class="card card-product">
+				<div class="img-wrap" id="play4"><img src="assets/img/play4.png"></div>
+				<figcaption class="info-wrap">
+						<h4 class="title">Playstation 4 </h4>
+						<p class="desc">O video mais top para games mais fodas!</p>
+						<div class="rating-wrap">
+							<div class="label-rating">132 comentários</div>
+							<div class="label-rating">154 pedidos </div>
+						</div> <!-- rating-wrap.// -->
+				</figcaption>
+				<div class="bottom-wrap">
+					<a href="" class="btn btn-sm btn-primary float-right">Compre já</a>	
+					<div class="price-wrap h5">
+						<span class="price-new">R$ 1886,66</span> <del class="price-old">R$ 2180,99</del>
+					</div> <!-- price-wrap.// -->
+				</div> <!-- bottom-wrap.// -->
+			</figure>
+		</div> <!-- col // -->
+		<div class="col-md-4">
+			<figure class="card card-product">
+				<div class="img-wrap" id="gopro"><img src="assets/img/gopro.png"> </div>
+				<figcaption class="info-wrap">
+						<h4 class="title">Go PRO HERO</h4>
+						<p class="desc">Mais leve, mais compacta e mais radical</p>
+						<div class="rating-wrap">
+							<div class="label-rating">115 comentários</div>
+							<div class="label-rating">199 pedidos </div>
+						</div> <!-- rating-wrap.// -->
+				</figcaption>
+				<div class="bottom-wrap">
+						<a href="" class="btn btn-sm btn-primary float-right">Compre já</a>	
+						<div class="price-wrap h5">
+							<span class="price-new">R$ 2499,90</span> <del class="price-old">R$ 2980,99</del>
+						</div> <!-- price-wrap.// -->
+				</div> <!-- bottom-wrap.// -->
+			</figure>
+		</div> <!-- col // -->
+		<div class="col-md-4">
+			<figure class="card card-product">
+				<div class="img-wrap" id="jbl"><img src="assets/img/jbl.png"></div>
+				<figcaption class="info-wrap">
+						<h4 class="title">JBL Charge 4</h4>
+						<p class="desc">Mais potência do que nunca</p>
+						<div class="rating-wrap">
+							<div class="label-rating">99 comentários</div>
+							<div class="label-rating">149 pedidos </div>
+						</div> <!-- rating-wrap.// -->
+				</figcaption>
+				<div class="bottom-wrap">
+						<a href="" class="btn btn-sm btn-primary float-right">Compre já</a>	
+						<div class="price-wrap h5">
+							<span class="price-new">R$ 1789,85</span> <del class="price-old">R$1980,90</del>
+						</div> <!-- price-wrap.// -->
+				</div> <!-- bottom-wrap.// -->
+			</figure>
+		</div> <!-- col // -->
+		</div> <!-- row.// -->
 
 
 
-</div> 
-<!--container.//-->
+		</div> 
+		<!--container.//-->
 
-<br><br><br>
-<article class="bg-secondary mb-3">  
-<div class="card-body text-center">
-    <h4 class="text-white">HTML UI KIT <br> Ready to use Bootstrap 4 components and templates </h4>
-<p class="h5 text-white"> for Ecommerce, marketplace, booking websites 
-and product landing pages</p>   <br>
-<p><a class="btn btn-warning" target="_blank" href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com  
- <i class="fa fa-window-restore "></i></a></p>
-</div>
-<br><br><br>
-</article>
+		<br><br><br>
+		<article class="bg-secondary mb-3">  
+		<div class="card-body text-center">
+		    <h4 class="text-white">QUER FAZER PARTE DO NOSSO CLUBE DE DESCONTOS? <br> Receba semanalmente diversos descontos em variados produtos da loja </h4>
+		<p class="h5 text-white"> Ganhe frete grátis e receba cashback em produtos selecionados</p>   <br>
+		<p><a class="btn btn-warning" target="_blank" href="http://bootstrap-ecommerce.com/"> QUERO ENTRAR AGORA 
+		 <i class="fa fa-window-restore "></i></a></p>
+		</div>
+		<br><br><br>
+		</article>
+	</body>
+	<script src="vendor/jquery/jquery3/jquery.min.js"></script>
+	<footer>
+			<footer class="footer bg-dark text-white">
+			<div class="bg-primary">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-6 col-lg-7">
+                        <h4 class="mb-0 white-text">Siga-nos nas redes sociais!</h4>
+                    </div>
+                    <div class="col-md-6 col-lg-5 text-right">
+                        <a href="https://pt-br.facebook.com/ingridi.grein" target="_BLANK"><i class="fa fa-facebook white-text mr-lg-4 fa-2x"> </i></a>
+                        <a href="https://twitter.com/IngridiGrein" target="_BLANK"><i class="fa fa-twitter white-text mr-lg-4 fa-2x"> </i></a>
+                        <a><i class="fa fa-google-plus white-text mr-lg-4 fa-2x"> </i></a>
+                        <a href="https://br.linkedin.com/in/ingridigrein" target="_BLANK"><i class="fa fa-linkedin white-text mr-lg-4 fa-2x"> </i></a>
+                        <a href="https://www.instagram.com/ingridigrein/?hl=en" target="_BLANK"><i class="fa fa-instagram white-text mr-lg-4 fa-2x"> </i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Social Icons -->
+
+        <!-- Footer Links -->
+        <div class="container pt-5 pb-2">
+            <div class="row">
+
+                <div class="col-md-3 col-lg-4 col-xl-3">
+                    <h4>Marketplace da Ingridi</h4>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <p>
+                        Temos uma equipe que trabalha loucamente atrás dos melhores preços para você. São ínumeras negociações diárias, conversa com fornecedores e parcerias de sucesso. 
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <h4>Os mais vendidos</h4>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <p><a href="#p" class="text-white">Playstation 4</a></p>
+                    <p><a href="#" class="text-white">Go PRO HERO</a></p>
+                    <p><a href="#" class="text-white">JBL Charge 4</a></p>
+                    <p><a href="#" class="text-white">Smartwatch Apple</a></p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                    <h4>Links úteis</h4>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <p><a href="index.html" class="text-white">Home</a></p>
+                    <p><a href="contato.html" class="text-white">Contato</a></p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h4>Contato</h4>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <p><i class="fa fa-home mr-3"></i>R. Monsenhor Celso, 256 - Centro, Curitiba - PR</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14412.70227699458!2d-49.2704011!3d-25.4323932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacef6a68b37f39ee!2sElaborata%20Inform%C3%A1tica!5e0!3m2!1sen!2sbr!4v1584140723202!5m2!1sen!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer Links-->
+
+        <hr class="bg-white mx-4 mt-2 mb-1">
+
+        <!-- Copyright-->
+        <div class="container-fluid">
+            <p class="text-center m-0 py-1">
+                © 2020 Copyright <a href="https://br.linkedin.com/in/ingridigrein" class="text-white">INGRIDI GREIN</a>
+            </p>
+        </div>
+        <!-- Copyright -->
+
+    <!-- Footer -->
+	</footer>

@@ -10,7 +10,8 @@
 	"require-dev": {
 		"bootstrap/bootstrapJS":"*",
 		"bootstrap/bootstrapCSS":"*",
-		"jquery/jquery":"*"
+		"jquery/jquery":"*",
+		"jquery/jquery3":"*"
 		
 
 	},
@@ -44,6 +45,17 @@
 				"version":"1.11.1",
 				"dist": {
 					"url": "https://code.jquery.com/jquery-1.11.1.min.js",
+					"type": "file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"jquery/jquery3",
+				"version":"3.2.1",
+				"dist": {
+					"url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js",
 					"type": "file"
 				}
 			}
